@@ -1,0 +1,21 @@
+1669814129123	geckodriver	INFO	Listening on 127.0.0.1:62037
+1669814132203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62038" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Iyadr\\AppData\\Local\\Temp\\rust_mozprofileLDSbvz"
+1669814132601	Marionette	INFO	Marionette enabled
+1669814132607	Marionette	INFO	Listening on port 62049
+Read port: 62049
+WebDriver BiDi listening on ws://127.0.0.1:62038
+1669814132732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Iyadr\\AppData\\Local\\Temp\\rust_mozprofileLDSbvz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62038/devtools/browser/c12c6eaf-4418-4741-b4de-200738dae48e
+1669814137361	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-11-30T13:15:38Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-30T13:15:38Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-30T13:15:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-30T13:15:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-30T13:15:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-11-30T13:15:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 17512, MediaDecoderStateMachine #1] WARNING: Decoder=1db91c6b600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 17512, MediaDecoderStateMachine #1] WARNING: Decoder=1db91c6b600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 17512, MediaDecoderStateMachine #1] WARNING: Decoder=1db91c6b300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 17512, MediaDecoderStateMachine #1] WARNING: Decoder=1db91c6b300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1669814146870	Marionette	INFO	Stopped listening on port 62049
